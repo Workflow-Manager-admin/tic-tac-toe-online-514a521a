@@ -26,13 +26,13 @@ html, body, #root {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  /* Set background globally to accent red */
-  background: #f44336;
+  /* Set background globally to yellow */
+  background: #FFFF00;
 }
 
 /* Make sure main container backgrounds are still white or light (for readability) */
 body {
-  background: none;
+  /* no override for background; inherit from html */
 }
 
 /* --- Centered Main Container --- */

@@ -21,8 +21,18 @@
   /* Not used. Only light theme for minimalism per requirements. */
 }
 
+html, body, #root {
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* Set background globally to accent red */
+  background: #f44336;
+}
+
+/* Make sure main container backgrounds are still white or light (for readability) */
 body {
-  background: var(--ttt-bg);
+  background: none;
 }
 
 /* --- Centered Main Container --- */
